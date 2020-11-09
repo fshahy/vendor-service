@@ -8,11 +8,11 @@
 		<version>2.3.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ir.delifery</groupId>
-	<artifactId>Food-DeliFery-Vendor-Service</artifactId>
+	<groupId>fshahy</groupId>
+	<artifactId>delifery-vendor-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Food-DeliFery-Vendor-Service</name>
-	<description>Prodvides Vendor Services</description>
+	<name>DeliFery Vendor Service</name>
+	<description>Prodvides Vendor Services for DeliFery Microservices</description>
 
 	<properties>
 		<java.version>11</java.version>
