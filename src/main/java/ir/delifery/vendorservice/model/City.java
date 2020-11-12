@@ -21,4 +21,7 @@ public class City {
 	
 	@OneToMany(mappedBy = "city", fetch = FetchType.LAZY)
 	private List<Area> areas;
+	
+	@OneToMany(mappedBy = "city", fetch = FetchType.LAZY)
+	private List<Vendor> vendors;
 }
