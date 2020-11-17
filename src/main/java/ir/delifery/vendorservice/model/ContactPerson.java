@@ -6,11 +6,15 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
+@NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class ContactPerson {
 	@Id
 	@GeneratedValue
